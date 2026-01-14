@@ -22,7 +22,7 @@ variable "db_master_password" {
 
 variable "key_pair_name" {
   type        = string
-  default     = "Esh"
+  default     = "emp"
 }
 
 variable "app_ami_id" {
@@ -47,4 +47,5 @@ variable "GHCR_TOKEN" {
 
 variable "GHCR_USER" {
   type = string
+
 }
